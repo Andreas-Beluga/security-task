@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+
+.login-container {
+    width: 100%;
+    height: 100vh;
+    background: #555;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.3));
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3d3d3d;
+    color: #fff;
+    height: 60px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 48px; 
+    height: 48px;
+  }
+  
+.logo-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.language-selector {
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+
+.language-options {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: #444;
+    list-style: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    z-index: 10;
+    width: 160px;
+    display: none;
+}
+
+.language-options li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.language-options li:hover {
+    background-color: #555;
+}
+
+.language-options.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #555;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-image {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+form button {
+    width: 95%;
+    padding: 12px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.links {
+    margin-top: 15px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+

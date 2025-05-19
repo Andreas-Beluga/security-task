@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SecuriTask - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <header class="header">
+      <div class="logo-area">
+        <img src="logo.png" alt="Logo" class="logo-icon" />
+        <span class="logo-text">SecuriTask</span>
+      </div>
+      <div class="language-selector">
+        <span id="selected-language" onclick="toggleDropdown()">Português (Brasil) ⯆</span>
+        <ul id="language-options" class="language-options hidden">
+            <li onclick="changeLanguage('en')">English (US)</li>
+            <li onclick="changeLanguage('es')">Español</li>
+            <li onclick="changeLanguage('pt-BR')">Português (Brasil)</li>
+            <li onclick="changeLanguage('fr')">Français</li>
+            <li onclick="changeLanguage('de')">Deutsch</li>
+            <li onclick="changeLanguage('it')">Italiano</li>
+            <li onclick="changeLanguage('pt-pt')">Português (Portugal)</li>
+            <li onclick="changeLanguage('zh')">中文 (Chinês)</li>
+            <li onclick="changeLanguage('ar')">العربية (Árabe)</li>
+            <li onclick="changeLanguage('ru')">Русский (Russo)</li>
+            <li onclick="changeLanguage('ja')">日本語 (Japonês)</li>
+            <li onclick="changeLanguage('ko')">한국어 (Coreano)</li>
+            <li onclick="changeLanguage('hi')">हिन्दी (Hindi)</li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="login-content">
+        <div class="login-box">
+          <a href="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/491842587_701317795688089_8226723718318374926_n.jpg?ccb=11-4&oh=01_Q5Aa1QESY8a5HQAeMYPVfXXt8M_YivxpDbjdjwtTQxlC5E2mCA&oe=6825C19C&_nc_sid=5e03e0&_nc_cat=103" target="_blank">
+            <img src="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/491842587_701317795688089_8226723718318374926_n.jpg?ccb=11-4&oh=01_Q5Aa1QESY8a5HQAeMYPVfXXt8M_YivxpDbjdjwtTQxlC5E2mCA&oe=6825C19C&_nc_sid=5e03e0&_nc_cat=103" alt="Login Image" class="login-image"/>
+          </a>
+          <form id="login-form">
+            <input type="email" placeholder="E-mail" required />
+            <input type="password" placeholder="Senha" required />
+            <button type="submit">Entrar</button>
+            <div class="links">
+              <a href="#">Esqueceu a conta?</a>
+              <a href="#">Criar nova conta</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+
+  <script src="script.js"></script>
+</body>
+</html>
